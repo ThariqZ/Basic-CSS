@@ -1,0 +1,110 @@
+body {
+  background: #D8C3A5;
+}
+
+#grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 10px;
+  padding: 10px;
+  background-color: #EAE7DC;
+}
+
+div{
+/*   border-style: solid;
+  border-width: 1px; */
+  background: #EAE7DC;
+}
+
+hr {
+  border: 1px solid black;
+  
+}
+
+fieldset {
+  color: #E98074;
+}
+
+p {
+  
+}
+
+a {
+  
+}
+
+a:link {
+  color: #3500d3;
+}
+
+a:hover {
+  color: #7395AE;
+}
+
+h1 {
+  
+}
+
+h2 {
+  
+}
+
+h3 {
+  
+}
+
+ol {
+  
+}
+
+ul {
+  
+}
+
+li {
+  color: #585858
+}
+
+strong {
+  color: #E98074;
+}
+
+.heading {
+  color: #E85A4F
+}
+
+#description {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 1;
+}
+
+#ingredients {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+
+#equipment {
+
+}
+
+#directions {
+  grid-column-start: 1;
+  grid-row-start: 2;
+}
+
+#footing {
+  color: #000000;
+  font-weight: bold;
+  text-align: right;
+}
+
+#conversion {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+
+#skill-level {
+  grid-column-start: 3;
+  grid-row-start: 2;
+}
